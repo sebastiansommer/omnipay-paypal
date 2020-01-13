@@ -61,6 +61,11 @@ abstract class AbstractRestRequest extends \Omnipay\Common\Message\AbstractReque
      * @var string PayerID
      */
     protected $payerId = null;
+    
+    /**
+     * @var bool
+     */
+    protected $negativeAmountAllowed = true;
 
     protected $referrerCode;
 
